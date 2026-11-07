@@ -1,0 +1,46 @@
+Provider: openai | Modelo: gpt-4.1-mini | Juiz: gpt-5.6-luna
+
+🔍 Avaliando: rafael-moraes/bug_to_user_story_v2:2e5f8a38
+   Puxando prompt do LangSmith Hub: rafael-moraes/bug_to_user_story_v2:2e5f8a38
+   ✓ Prompt carregado com sucesso
+   Rodando experimento no LangSmith...
+View the evaluation results for experiment: 'rafael-moraes-bug_to_user_story_v2:2e5f8a38-09611456' at:
+https://smith.langchain.com/o/2ccccaa4-5b70-4d25-be60-ef6f7a5308e3/datasets/a5d3fa2b-642a-4ad9-a95d-5f86818ebd48/compare?selectedSessions=1e5e4825-981f-4c7e-805b-d6642dae8484
+
+
+      [1] F1:0.78 Clarity:0.68 Precision:0.86
+      [2] F1:0.89 Clarity:0.73 Precision:0.82
+      [3] F1:0.89 Clarity:0.84 Precision:0.93
+      [4] F1:0.78 Clarity:0.93 Precision:0.90
+      [5] F1:0.70 Clarity:0.88 Precision:0.80
+      [6] F1:0.80 Clarity:0.86 Precision:0.91
+      [7] F1:0.90 Clarity:0.88 Precision:0.97
+      [8] F1:0.89 Clarity:0.91 Precision:0.97
+      [9] F1:0.83 Clarity:0.81 Precision:0.85
+      [10] F1:0.84 Clarity:0.85 Precision:0.90
+      [11] F1:0.95 Clarity:0.95 Precision:0.97
+      [12] F1:0.97 Clarity:0.93 Precision:0.97
+      [13] F1:0.97 Clarity:0.90 Precision:0.97
+      [14] F1:0.97 Clarity:0.96 Precision:0.90
+      [15] F1:1.00 Clarity:0.95 Precision:0.93
+
+==================================================
+Prompt: rafael-moraes/bug_to_user_story_v2:2e5f8a38
+==================================================
+
+Métricas Derivadas:
+  - Helpfulness: 0.89 ✓
+  - Correctness: 0.89 ✓
+
+Métricas Base:
+  - F1-Score: 0.88 ✓
+  - Clarity: 0.87 ✓
+  - Precision: 0.91 ✓
+
+--------------------------------------------------
+📊 MÉDIA GERAL: 0.8885
+--------------------------------------------------
+
+✅ STATUS: APROVADO - Todas as métricas >= 0.8
+
+Experimento: https://smith.langchain.com/o/2ccccaa4-5b70-4d25-be60-ef6f7a5308e3/datasets/a5d3fa2b-642a-4ad9-a95d-5f86818ebd48/compare?selectedSessions=1e5e4825-981f-4c7e-805b-d6642dae8484

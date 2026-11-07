@@ -1,0 +1,80 @@
+
+==================================================
+AVALIAÇÃO DE PROMPTS OTIMIZADOS
+==================================================
+
+Provider: openai
+Modelo Principal: gpt-4.1-mini
+Modelo de Avaliação: gpt-5.6-luna
+
+Criando dataset de avaliação: mba-ia-pull-evaluation-prompt-eval...
+   ✓ Carregados 15 exemplos do arquivo datasets/bug_to_user_story.jsonl
+   ✓ Dataset 'mba-ia-pull-evaluation-prompt-eval' já existe, usando existente
+   ✓ https://smith.langchain.com/o/2ccccaa4-5b70-4d25-be60-ef6f7a5308e3/datasets/a5d3fa2b-642a-4ad9-a95d-5f86818ebd48
+
+======================================================================
+PROMPTS PARA AVALIAR
+======================================================================
+
+Este script irá puxar prompts do LangSmith Hub.
+Certifique-se de ter feito push dos prompts antes de avaliar:
+  python src/push_prompts.py
+
+
+🔍 Avaliando: rafael-moraes/bug_to_user_story_v2
+   Puxando prompt do LangSmith Hub: rafael-moraes/bug_to_user_story_v2
+   ✓ Prompt carregado com sucesso
+   Rodando experimento no LangSmith...
+View the evaluation results for experiment: 'rafael-moraes-bug_to_user_story_v2-3d44c0e6' at:
+https://smith.langchain.com/o/2ccccaa4-5b70-4d25-be60-ef6f7a5308e3/datasets/a5d3fa2b-642a-4ad9-a95d-5f86818ebd48/compare?selectedSessions=38c136bb-84c7-410b-857b-4a97b0b67e09
+
+
+      [1] F1:0.83 Clarity:0.78 Precision:0.91
+      [2] F1:0.94 Clarity:0.67 Precision:0.96
+      [3] F1:0.92 Clarity:0.84 Precision:0.89
+      [4] F1:0.76 Clarity:0.94 Precision:0.88
+      [5] F1:0.81 Clarity:0.84 Precision:0.83
+      [6] F1:0.84 Clarity:0.86 Precision:0.85
+      [7] F1:0.92 Clarity:0.86 Precision:0.99
+      [8] F1:0.90 Clarity:0.86 Precision:0.95
+      [9] F1:0.82 Clarity:0.83 Precision:0.85
+      [10] F1:0.84 Clarity:0.88 Precision:0.88
+      [11] F1:0.91 Clarity:0.94 Precision:0.97
+      [12] F1:1.00 Clarity:0.95 Precision:0.98
+      [13] F1:0.92 Clarity:0.93 Precision:0.95
+      [14] F1:1.00 Clarity:0.92 Precision:0.92
+      [15] F1:1.00 Clarity:0.94 Precision:0.90
+
+==================================================
+Prompt: rafael-moraes/bug_to_user_story_v2
+==================================================
+
+Métricas Derivadas:
+  - Helpfulness: 0.89 ✓
+  - Correctness: 0.90 ✓
+
+Métricas Base:
+  - F1-Score: 0.89 ✓
+  - Clarity: 0.87 ✓
+  - Precision: 0.91 ✓
+
+--------------------------------------------------
+📊 MÉDIA GERAL: 0.8947
+--------------------------------------------------
+
+✅ STATUS: APROVADO - Todas as métricas >= 0.8
+
+==================================================
+RESUMO FINAL
+==================================================
+
+Prompts avaliados: 1
+Aprovados: 1
+Reprovados: 0
+
+Resultados no LangSmith (notas gravadas como feedback no experimento):
+  rafael-moraes/bug_to_user_story_v2
+    https://smith.langchain.com/o/2ccccaa4-5b70-4d25-be60-ef6f7a5308e3/datasets/a5d3fa2b-642a-4ad9-a95d-5f86818ebd48/compare?selectedSessions=38c136bb-84c7-410b-857b-4a97b0b67e09
+
+✅ Todos os prompts atingiram todas as métricas >= 0.8!
+
